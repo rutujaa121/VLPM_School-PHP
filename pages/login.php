@@ -35,7 +35,8 @@
         if (username === "admin" && password === "password") {
             alert("Login successful!");
             window.location.href = "../index.html";
-        } else {
+        } 
+        else {
             alert("Invalid username or password.");
         }
     }
