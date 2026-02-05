@@ -28,3 +28,51 @@ nav a{
     color: #007bff;
     font-weight: bold;
 }
+nav a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page1 .background_image{
+    width: 100%;
+    max-height: 550px;
+    margin-bottom: 30px;
+}
+.page1 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.page1 .text{
+    max-width: 800px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: -500px;
+    left: -70px;
+}
+.page1 h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.page1 p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+}
+.page1 .btn{
+    padding: 10px 20px;
+    margin: 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
