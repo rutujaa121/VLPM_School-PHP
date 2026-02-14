@@ -107,19 +107,45 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: aquamarine;
 }
 .page2 .section1{
     width: 30%;
-    background-color: #cfcfcf;
-    padding: 40px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.5s, box-shadow 0.3s;
 }
 .page2 .section1 a{
     text-decoration: none;
 }
-
-
-
+.page2 .section1 i{
+    font-size: 50px;
+    color: #0047B3;
+}
+.page2 .section1 h3{
+    margin: 10px 0;
+    color: #333;
+}
+.page2 .section1 p{
+    color: #555;
+    font-size: 16px;
+}
+.page2 .section1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.page2 .btn{
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #0066FF;
+    color: white;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
 /* Footer Styles */
 
 
