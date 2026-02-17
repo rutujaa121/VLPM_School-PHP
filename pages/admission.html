@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -22,9 +24,78 @@
         </nav>
     </header>
 
+    <!-- Hero Banner -->
+    <section class="admission-banner">
+        <h1>Join Vakilrao Langhe Patil School</h1>
+        <p>Apply now and unlock your child’s future success.</p>
+        <a href="#form-section" class="btn-primary">Apply Now</a>
+    </section>
+
+    <!-- Admission Intro -->
+    <section class="intro">
+        <h2>Admission Information</h2>
+        <p>Complete the form below to apply. Please ensure all information is accurate.</p>
+    </section>
+
+    <!-- Admission Form -->
+    <section id="form-section" class="form-section">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="studentName">Student Full Name</label>
+                <input type="text" id="studentName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="parentName">Parent/Guardian Name</label>
+                <input type="text" id="parentName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="class">Applying for Class</label>
+                <select id="class" required>
+                    <option value="">Select Class</option>
+                    <option>5th Class</option>
+                    <option>6th Class</option>
+                    <option>7th Class</option>
+                    <option>8th Class</option>
+                    <option>9th Class</option>
+                    <option>10th Class</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="documents">Upload Passport Photo</label>
+                <input type="file" id="documents" name="documents" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="form-group">
+                <label for="documents">Upload Aadhar Card</label>
+                <input type="file" id="documents" name="documents" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="form-group">
+                <label for="documents">Upload Previous School Records</label>
+                <input type="file" id="documents" name="documents" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="form-group">
+                <label for="documents">Upload Birth Certificate</label>
+                <input type="file" id="documents" name="documents" accept=".pdf,.doc,.docx" required>
+            </div>
+                <input type="submit" class="btn-submit" value="Submit Application">
+        </form>
+    </section>
+
+
 
     <div class="footer">
         <p>&copy; 2026 VLP School. All Rights Reserved.</p>
     </div>
 </body>
+
 </html>

@@ -48,6 +48,106 @@ nav a:hover{
 
 
 
+/* Page 1 styles */
+
+
+
+.admission-banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/admission-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.admission-banner h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #0047B3;
+}
+.admission-banner p{
+    font-size: 1.5rem;
+    max-width: 600px;
+    color: #333333;
+}
+.admission-banner a{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #0047B3;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.admission-banner a:hover{
+    background-color: #003366;
+}
+
+.intro{
+    padding: 50px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+.intro h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0047B3;
+}
+.intro p{
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333333;
+}
+.form-section{
+    padding: 50px;
+    background-color: #ffffff;
+}
+.form-section h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0047B3;
+    text-align: center;
+}
+.form-section form{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.form-section label{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333333;
+}
+.form-section input, .form-section select{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.form-section .btn-submit{
+    padding: 10px 20px;
+    background-color: #0047B3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-section .btn-submit:hover{
+    background-color: #003366;
+}
+
+
 /* Footer Part */
 
 .footer{
