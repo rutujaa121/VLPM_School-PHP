@@ -52,13 +52,13 @@ nav a:hover{
 .contact_container{
     height: 100vh;
     width: 100%;
-    background-color: #cfcfcf;
+    background: url(./../images/contactus.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(181, 181, 181, 0.9);
+    background-blend-mode: overlay;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
 }
 .contact_container h2{
     padding-top: 40px;
@@ -68,18 +68,24 @@ nav a:hover{
 .contact_container p{
     margin-top: 20px;
     font-size: 18px;
-    color: #555555;
+    color: #3a3a3a;
 }
 .contact_container form{
     margin-top: 30px;
     font-size: 16px;
-    color: #777777;
+    color: #2c2c2c;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.contact_container form label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333333;
+}
 .contact_container form input, .contact_container form textarea{
-    width: 300px;
+    width: 400px;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
