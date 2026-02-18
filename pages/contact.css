@@ -74,7 +74,7 @@ nav a:hover{
     margin-top: 30px;
     font-size: 16px;
     color: #2c2c2c;
-    font-weight: bold;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +90,8 @@ nav a:hover{
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    /* outline: none; */
+    outline-color: #0047B3;
 }
 .contact_container form .btn{
     padding: 10px 20px;
